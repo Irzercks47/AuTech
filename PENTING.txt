@@ -1,0 +1,15 @@
+1.Install laravel 8
+2.extract file
+3.cd ke newProject
+4.buka vscode
+5.pastikan konf database sudah benar di file .env
+6.buat database dengan nama yang sama dengan .env
+7.untuk menjalankan local dev server note:untuk serve lebih enak menggunakan git bash
+	php artisan serve
+8.copy address dev server ke browser
+9.migrate database
+	php artisan migrate
+	kemudian
+	php artisan migrate:fresh --seed
+
+NOTE: untuk membuat data user silahkan registrasi
